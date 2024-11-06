@@ -4,6 +4,8 @@ def comp_guess():
     guess_num = random.randint(1,3)
     guess_word = ""
 
+    guess = random.choice
+
     if guess_num == 1:
         guess_word = "scissors"
     elif guess_num == 2:
